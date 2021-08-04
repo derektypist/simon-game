@@ -20,3 +20,13 @@ As a user, if I want to restart, I can hit a button to do so, and the game will 
 As a user, I can play in strict mode, where if I get a button press wrong, it notifies me that I have done so, and the game restarts at a new random series of button presses.
 
 As a user, I can win the game by getting a series of 20 steps correct.  I am notified of my victory, then the game starts over.
+
+## Credits
+
+### Content
+
+Taken from [Jon Costa](https://codepen.io/jonjcosta/pen/NXbqar), via the FreeCodeCamp forum search (Simon Game).  Accessed in August 2021.
+
+### Acknowledgements
+- [Jon Costa](https://codepen.io/jonjcosta/pen/NXbqar)
+- [FreeCodeCamp](https://www.freecodecamp.org)
