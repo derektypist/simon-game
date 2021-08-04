@@ -25,3 +25,12 @@
 body {
     background-color: var(--clr-background);
 }
+
+/* Circles */
+.circle-quarter {
+    height: var(--circle-quarter-size);
+    margin: 25px;
+    opacity: 0.6;
+    position: absolute;
+    width: var(--circle-quarter-size);
+}
