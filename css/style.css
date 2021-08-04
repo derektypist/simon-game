@@ -20,3 +20,8 @@
     --circle-center-size: 270px;
     --circle-center-wrap-size: 290px;
 }
+
+/* Body */
+body {
+    background-color: var(--clr-background);
+}
