@@ -1,0 +1,22 @@
+/* Variables */
+:root {
+    --ft-title: 'Special Elite', cursive;
+    --clr-green-circle-rad: 100% 0 0 0;
+    --clr-red-circle-rad: 0 100% 0 0;
+    --clr-yellow-circle-rad: 0 0 0 100%;
+    --clr-blue-circle-rad: 0 0 100 0;
+    --clr-black: #161925;
+    --clr-red: #9e1030;
+    --clr-green: #009b77;
+    --clr-yellow: #f5df4d;
+    --clr-blue: #0072b5;
+    --clr-center: #fff8f0;
+    --clr-background: #d2c29d;
+    --clr-start-btn: #8d9440;
+    --clr-strict-btn: #e94b3c;
+    --clr-on-off-btn: #00539c;
+    --circle-main-size: 500px;
+    --circle-quarter-size: 210px;
+    --circle-center-size: 270px;
+    --circle-center-wrap-size: 290px;
+}
