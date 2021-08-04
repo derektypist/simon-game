@@ -25,7 +25,17 @@ As a user, I can win the game by getting a series of 20 steps correct.  I am not
 
 ### Content
 
-Taken from [Jon Costa](https://codepen.io/jonjcosta/pen/NXbqar), via the FreeCodeCamp forum search (Simon Game).  Accessed in August 2021.
+Taken from [Jon Costa](https://codepen.io/jonjcosta/pen/NXbqar), via the FreeCodeCamp forum search (Simon Game).  Accessed in August 2021.  Sounds taken from the links in the Media.
+
+## Media
+
+MP3s
+
+https://s3.amazonaws.com/freecodecamp/simonSound1.mp3
+https://s3.amazonaws.com/freecodecamp/simonSound2.mp3
+https://s3.amazonaws.com/freecodecamp/simonSound3.mp3
+https://s3.amazonaws.com/freecodecamp/simonSound4.mp3
+
 
 ### Acknowledgements
 - [Jon Costa](https://codepen.io/jonjcosta/pen/NXbqar)
