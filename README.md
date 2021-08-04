@@ -21,13 +21,17 @@ As a user, I can play in strict mode, where if I get a button press wrong, it no
 
 As a user, I can win the game by getting a series of 20 steps correct.  I am notified of my victory, then the game starts over.
 
+## Features
+
+To test memory skill.  Ability to play in strict mode.  Notification of victory.
+
 ## Credits
 
 ### Content
 
 Taken from [Jon Costa](https://codepen.io/jonjcosta/pen/NXbqar), via the FreeCodeCamp forum search (Simon Game).  Accessed in August 2021.  Sounds taken from the links in the Media.
 
-## Media
+### Media
 
 MP3s
 
