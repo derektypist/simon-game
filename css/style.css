@@ -36,3 +36,14 @@ body {
     position: absolute;
     width: var(--circle-quarter-size);
 }
+
+.circle-main {
+    background-color: var(--clr-black);
+    border-radius: 50%;
+    height: var(--circle-main-size);
+    margin: 0 auto;
+    margin-top: 11vh;
+    position: relative;
+    width: var(--circle-main-size);
+}
+
