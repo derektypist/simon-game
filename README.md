@@ -25,9 +25,9 @@ As a user, I can win the game by getting a series of 20 steps correct.  I am not
 
 ### Wireframes
 
-[Main Game](wireframes/simon-main.png)
-[On/Off Button](wireframes/simon-on.png)
-[Strict Mode](wireframes/simon-strict.png)
+- [Main Game](wireframes/simon-main.png)
+- [On/Off Button](wireframes/simon-on.png)
+- [Strict Mode](wireframes/simon-strict.png)
 
 ## Features
 
