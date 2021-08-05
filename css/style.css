@@ -1,6 +1,7 @@
 /* Variables */
 :root {
     --ft-title: 'Special Elite', cursive;
+    --ft-main: 'Roboto', Arial, Verdana, sans-serif;
     --clr-green-circle-rad: 100% 0 0 0;
     --clr-red-circle-rad: 0 100% 0 0;
     --clr-yellow-circle-rad: 0 0 0 100%;
@@ -24,6 +25,7 @@
 /* Body */
 body {
     background-color: var(--clr-background);
+    font-family: var(--ft-main);
 }
 
 /* Circles */
