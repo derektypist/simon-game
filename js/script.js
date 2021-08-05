@@ -96,4 +96,16 @@ $(document).ready(function() {
             playSoundFromArray();
         }, 700);
     }
+
+    // Function to Start New Game
+    function startNewGame() {
+        if (!isGameOn) return false;
+        isGameRunning = true;
+        targetSequence = [];
+        playerSequence = [];
+        addStepToSequence();
+        stepCount = 1;
+        setCounterNumber(stepCount);
+        startSoundSequence();
+    }
 });
