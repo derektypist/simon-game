@@ -153,5 +153,18 @@ $(document).ready(function() {
        }
     }
 
-    
+    // Function to Display Wrong Result
+    function displayWrongResult() {
+        playerSequence = [];
+        flashMessage();
+        setTimeout(() => {
+            if (strictMode) {
+                startNewGame();
+            } else {
+                setCounterNumber(stepCount);
+                startSoundSequence();
+            }
+        }, 4100);
+    }
+
 });
