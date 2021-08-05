@@ -122,7 +122,7 @@ body {
 
 .center-title {
     font-family: var(--ft-title);
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .counter {
@@ -160,7 +160,7 @@ body {
 
 .btn-strict {
     background-color: var(--clr-strict-btn);
-    color: fff;
+    color: #fff;
     left: 87px;
     position: absolute;
     top: 160px;
