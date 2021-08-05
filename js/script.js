@@ -167,4 +167,12 @@ $(document).ready(function() {
         }, 4100);
     }
 
+    // Function to Set Counter Number
+    function setCounterNumber(number) {
+        if (number < 10) {
+            number = '0' + number;
+        }
+        $('.counter').val(number);
+    }
+
 });
