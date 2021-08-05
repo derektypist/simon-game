@@ -25,6 +25,10 @@ As a user, I can win the game by getting a series of 20 steps correct.  I am not
 
 To test memory skill.  Ability to play in strict mode.  Notification of victory.
 
+## Technologies
+
+Uses HTML5, CSS3, Bootstrap 5.1.0, Google Fonts.
+
 ## Credits
 
 ### Content
