@@ -31,4 +31,12 @@ $(document).ready(function() {
         playerSequence.push(color);
         checkSequences();
     });
+
+    $('.btn-strict').click(function(e) {
+        e.preventDefault();
+        if (!isGameOn) return false;
+        strictMode = !strictMode;
+        let displayColor = strictMode ? '#edb100' : '#000';
+        $('.strict').css('background-color',displayColor);
+    });
 });
