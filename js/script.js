@@ -88,5 +88,12 @@ $(document).ready(function() {
         }, 130);
     }
 
-    
+    // Function to Start Sound Sequence
+    function startSoundSequence() {
+        isGameRunning = false;
+        targetSequenceCopy = targetSequence.slice(0);
+        soundPlaying = setInterval(function() {
+            playSoundFromArray();
+        }, 700);
+    }
 });
