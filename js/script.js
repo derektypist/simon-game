@@ -51,5 +51,14 @@ $(document).ready(function() {
     });
 
     // Function to Reset Variables
-    
+    function resetVariables() {
+        targetSequence = [];
+        playerSequence = [];
+        stepCount = 0;
+        strictMode = false;
+        isGameOn = false;
+        isGameRunning = false;
+        $('.counter').val('--');
+        $('.strict').css('background-color','#000');
+    }
 });
