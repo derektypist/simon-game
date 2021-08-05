@@ -137,3 +137,8 @@ body {
     top: 110px;
     width: 100px;
 }
+
+.btn-on-off {
+    background-color: var(--clr-on-off-btn);
+    color: #fff;
+}
