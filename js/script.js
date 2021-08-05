@@ -175,4 +175,18 @@ $(document).ready(function() {
         $('.counter').val(number);
     }
 
+    // Function to Flash Message
+    function flashMessage(message) {
+        flashInterval = setInterval(function() {
+            let currentMessage = $('.counter').val();
+            $('.counter').val(currentMessage ? '' : message);
+            if (flashCounter > 5) {
+                clearInterval(flashInterval);
+                flashCounter = 0;
+            } else {
+                flashCounter++;
+            }
+        }, 500);
+    }
+
 });
