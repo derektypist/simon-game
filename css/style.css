@@ -142,4 +142,19 @@ body {
 .btn-on-off {
     background-color: var(--clr-on-off-btn);
     color: #fff;
+    left: 80px;
+    position: absolute;
+    top: 200px;
+
+}
+
+.btn-on-off:hover {
+    background-color: #006dcc;
+    color: #fff;
+}
+
+.on-off {
+    position: absolute;
+    left: 180px;
+    top: 207px;
 }
