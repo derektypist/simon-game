@@ -61,4 +61,21 @@ $(document).ready(function() {
         $('.counter').val('--');
         $('.strict').css('background-color','#000');
     }
+
+    // Function to Play Sound from Array
+    function playSoundFromArray() {
+        if (!isGameOn) return false;
+        if (targetSequenceCopy.length) {
+            let currentColor = targetSequenceCopy.shift();
+            audioPlayer = colorSounds[currentColor];
+            audioPlayer.addEventListener("ended", function() {
+                $(`[data-color="${currentColor}"]`).css('opacity', '0.6');
+                $(`[data-color="${currentColor}"]`).css('opacity', '1');
+                audioPlayer.play();
+            });
+        } else {
+            clearInterval(soundPlaying);
+            isGameRunning = true;
+        }
+    }
 });
