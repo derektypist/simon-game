@@ -39,4 +39,17 @@ $(document).ready(function() {
         let displayColor = strictMode ? '#edb100' : '#000';
         $('.strict').css('background-color',displayColor);
     });
+
+    $('.btn-on-off').click(function(e) {
+        e.preventDefault();
+        isGameOn = !isGameOn;
+        if (!isGameOn) {
+            resetVariables();
+        }
+        let displayColor = isGameOn ? '#edb100' : '#000';
+        $('.on-off').css('background-color',displayColor);
+    });
+
+    // Function to Reset Variables
+    
 });
