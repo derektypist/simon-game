@@ -115,5 +115,43 @@ $(document).ready(function() {
         targetSequence.push(colors[randomIndex]);
     }
 
+    // Function to Check Sequences
+    function checkSequences() {
+        if (!isGameOn) return false;
+        isGameRunning = false;
+        for (let i=0;i<playerSequence.length;i++) {
+            if (playerSequence[i] != targetSequence[i]) {
+                console.log("Wrong!");
+                displayWrongResult();
+                return false;
+            }
+        }
+
+        /* 
+            Check if Length of Player Sequence is Equal to
+            the Length of Target Sequence
+        */
+
+       if (playerSequence.length == targetSequence.length) {
+           // Check if stepCount is equal to 20
+           if (stepCount == 20) {
+               flashMessage('WIN!');
+               setTimeout(() => {
+                   startNewGame();
+               }, 4100);
+               return false;
+           }
+           stepCount++;
+           setCounterNumber(stepCount);
+           addStepToSequence();
+           playerSequence = [];
+           setTimeout(() => {
+               startSoundSequence();
+           }, 700);
+       } else {
+           isGameRunning = true;
+       }
+    }
+
     
 });
