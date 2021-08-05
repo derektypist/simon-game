@@ -166,7 +166,7 @@ body {
     top: 160px;
 }
 
-.btn-strict-hover {
+.btn-strict:hover {
     background-color: #ed6a5e;
     color: #fff;
 }
