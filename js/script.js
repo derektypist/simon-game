@@ -78,4 +78,15 @@ $(document).ready(function() {
             isGameRunning = true;
         }
     }
+
+    // Function to Play Sound from Button
+    function playSoundFromButton(buttonColor) {
+        $(`[data-color="${buttonColor}"]`).css('opacity','1');
+        colorSounds[buttonColor].play();
+        setTimeout(() => {
+            $(`[data-color="${buttonColor}"]`).css('opacity','0.6');
+        }, 130);
+    }
+
+    
 });
