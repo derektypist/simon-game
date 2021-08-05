@@ -68,3 +68,32 @@ body {
     top: 10px;
     width: var(--circle-center-size);
 }
+
+.circle-green {
+    background-color: var(--clr-green);
+    border-radius: var(--clr-green-circle-rad);
+    top: 0;
+    left: 0;
+}
+
+.circle-red {
+    background-color: var(--clr-red);
+    border-radius: var(--clr-red-circle-rad);
+    right: 0;
+    top: 0;
+}
+
+.circle-yellow {
+    background-color: var(--clr-yellow);
+    border-radius: var(--clr-yellow-circle-rad);
+    bottom: 0;
+    left: 0;
+}
+
+.circle-blue {
+    background-color: var(--clr-blue);
+    border-radius: var(--clr-blue-circle-rad);
+    bottom: 0;
+    right: 0;
+}
+
