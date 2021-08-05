@@ -145,7 +145,6 @@ body {
     left: 80px;
     position: absolute;
     top: 200px;
-
 }
 
 .btn-on-off:hover {
@@ -157,4 +156,30 @@ body {
     position: absolute;
     left: 180px;
     top: 207px;
+}
+
+.btn-strict {
+    background-color: var(--clr-strict-btn);
+    color: fff;
+    left: 87px;
+    position: absolute;
+    top: 160px;
+}
+
+.btn-strict-hover {
+    background-color: #ed6a5e;
+    color: white;
+}
+
+.strict {
+    position: absolute;
+    left: 180px;
+    top: 167px;
+}
+
+.small-display {
+    background-color: #000;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
 }
