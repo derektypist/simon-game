@@ -97,7 +97,7 @@ body {
     right: 0;
 }
 
-/* Buttons */
+/* Buttons and Displays */
 .btn-start {
     background-color: var(--clr-start-btn);
     color: #fff;
@@ -109,4 +109,31 @@ body {
 .btn-start:hover {
     color: #fff;
     background-color: #aab34d;
+}
+
+.center-title-wrap {
+    color: var(--clr-black);
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+
+.center-title {
+    font-family: var(--ft-title);
+    font-size: 30px;
+}
+
+.counter {
+    background-color: var(--clr-black);
+    border: none;
+    color: white;
+    font-family: var(--ft-title);
+    font-size: 20px;
+    height: 40px;
+    left: 50px;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    width: 100px;
 }
