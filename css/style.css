@@ -2,6 +2,7 @@
 :root {
     --ft-title: 'Special Elite', cursive;
     --ft-main: 'Roboto', Arial, Verdana, sans-serif;
+    --ft-counter: 'Parisienne', cursive;
     --clr-green-circle-rad: 100% 0 0 0;
     --clr-red-circle-rad: 0 100% 0 0;
     --clr-yellow-circle-rad: 0 0 0 100%;
@@ -128,7 +129,7 @@ body {
     background-color: var(--clr-black);
     border: none;
     color: white;
-    font-family: var(--ft-title);
+    font-family: var(--ft-counter);
     font-size: 20px;
     height: 40px;
     left: 50px;
