@@ -17,5 +17,18 @@ $(document).ready(function() {
         yellow:document.getElementById('sound-yellow'),
         red:document.getElementById('sound-red')};
 
-    
+    // Apply Click Events to Buttons and Circles
+    $('.btn-start').click(function(e) {
+        e.preventDefault();
+        startNewGame();
+    });
+
+    $('.circle-quarter').click(function(e) {
+        e.preventDefault();
+        if (!isGameOn || !isGameRunning) return false;
+        let color = $(this).data('color');
+        playSoundFromButton(color);
+        playerSequence.push(color);
+        checkSequences();
+    });
 });
