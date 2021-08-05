@@ -97,3 +97,16 @@ body {
     right: 0;
 }
 
+/* Buttons */
+.btn-start {
+    background-color: var(--clr-start-btn);
+    color: #fff;
+    position: absolute;
+    left: 160px;
+    top: 111px;
+}
+
+.btn-start:hover {
+    color: #fff;
+    background-color: #dde0b8;
+}
