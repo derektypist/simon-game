@@ -108,4 +108,12 @@ $(document).ready(function() {
         setCounterNumber(stepCount);
         startSoundSequence();
     }
+
+    // Function to Add Step to Sequence
+    function addStepToSequence() {
+        let randomIndex = Math.floor(Math.random() * 4);
+        targetSequence.push(colors[randomIndex]);
+    }
+
+    
 });
