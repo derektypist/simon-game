@@ -5,7 +5,7 @@
     --clr-green-circle-rad: 100% 0 0 0;
     --clr-red-circle-rad: 0 100% 0 0;
     --clr-yellow-circle-rad: 0 0 0 100%;
-    --clr-blue-circle-rad: 0 0 100 0;
+    --clr-blue-circle-rad: 0 0 100% 0;
     --clr-black: #161925;
     --clr-red: #9e1030;
     --clr-green: #009b77;
@@ -108,5 +108,5 @@ body {
 
 .btn-start:hover {
     color: #fff;
-    background-color: #dde0b8;
+    background-color: #aab34d;
 }
