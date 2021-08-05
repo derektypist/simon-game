@@ -5,6 +5,8 @@ functionality simliar to https://codepen.io/freeCodeCamp/full/obYBjE.
 
 ## UX
 
+The aim of the game is to reproduce the sequence.  Each sequence starts with a random color (green, blue, red or yellow).
+
 ### User Stories
 
 As a user, I am presented with a random series of button presses.
@@ -27,7 +29,15 @@ To test memory skill.  Ability to play in strict mode.  Notification of victory.
 
 ## Technologies
 
-Uses HTML5, CSS3, Bootstrap 5.1.0, Google Fonts.
+Uses HTML5, CSS3, Bootstrap 5.1.0, Google Fonts, jQuery 3.6.0 and JavaScript.
+
+## Testing
+
+Ensure all user stories have been met.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/simon-says) at the main branch.
 
 ## Credits
 
